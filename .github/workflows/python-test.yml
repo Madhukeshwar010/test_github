@@ -94,3 +94,4 @@ jobs:
             tags: |
               ${{ steps.image.outputs.name }}:latest
               ${{ steps.image.outputs.name }}:${{ github.sha }}
+              
