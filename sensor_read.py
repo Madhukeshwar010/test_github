@@ -1,3 +1,17 @@
+from sensor_read import check_temperature, read_sensor
+
+def test_read_sensor():
+    assert read_sensor(101) == 25.5
+
+def test_normal():
+    assert check_temperature(25.5) == "NORMAL"
+
+def test_high():
+    assert check_temperature(100) == "HIGH"
+
+def test_low():
+    assert check_temperature(-10) == "LOW"
+    
 def read_sensor(sensor_id):
     """Simulate reading a sensor value."""
     return 25.5
