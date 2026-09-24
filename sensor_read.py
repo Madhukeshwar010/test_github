@@ -5,7 +5,7 @@ def read_sensor(sensor_id):
 
 def check_temperature(temperature):
     """Check whether the temperature is within the safe range."""
-    if temperature > 80:
+    if temperatur > 80:
         return "HIGH"
     elif temperature < 0:
         return "LOW"
