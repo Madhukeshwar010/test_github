@@ -3,7 +3,7 @@ def read_sensor(sensor_id):
     return 25.5
 
 
-def check_temp(temperature):
+def check_temperature(temperature):
     """Check whether the temperature is within the safe range."""
     if temperatur > 80:
         return "HIGH"
