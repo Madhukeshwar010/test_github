@@ -11,7 +11,7 @@ def check_temp(temperature):
         return "LOW"
     return "NORMAL"
 
-#function main
+#fun
 def main():
     sensor_id = 101
     temperature = read_sensor(sensor_id)
