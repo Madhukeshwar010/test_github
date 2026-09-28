@@ -1,0 +1,16 @@
+# CODEOWNERS
+# Maps file paths to the people who must review changes to them.
+# Syntax is like .gitignore: pattern, then one or more owners.
+# The LAST matching line wins - not the most specific one.
+
+# Default owner for everything in the repo
+*                                   @Madhukeshwar010
+
+# Python source
+*.py                                @Madhukeshwar010
+
+# CI/CD pipeline - changes here affect how everything ships
+/.github/                           @Madhukeshwar010
+
+# Container build
+Dockerfile                          @Madhukeshwar010
