@@ -1,6 +1,6 @@
 def read_sensor(sensor_id):
     """Simulate reading a sensor value."""
-    return 25.5
+    return 25.4
 
 
 def check_temperature(temperature):
