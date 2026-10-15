@@ -1,3 +1,4 @@
+#function to read sensor
 def read_sensor(sensor_id):
     """Simulate reading a sensor value."""
     return 25.5
