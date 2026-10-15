@@ -1,3 +1,4 @@
+#comment function to read season
 def read_sensor(sensor_id):
     """Simulate reading a sensor value."""
     return 25.6
