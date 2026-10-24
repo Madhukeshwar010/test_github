@@ -1,0 +1,7 @@
+# pytest bootstrap file - not needed in the repo
+conftest.py
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
