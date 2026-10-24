@@ -1,19 +1,20 @@
+#function to read sensor
 def read_sensor(sensor_id):
     """Simulate reading a sensor value."""
-    return 25.5
+    return 25.6
 
-
-def check_temperature(temperature):
+#function temperature
+def check_temp(temperature):
     """Check whether the temperature is within the safe range."""
-    if temperature > 80:
+    if temperatur > 80:
         return "HIGH"
     elif temperature < 0:
         return "LOW"
     return "NORMAL"
 
-
+#fun
 def main():
-    sensor_id = 101
+    sensor_id = 10150
     temperature = read_sensor(sensor_id)
 
     status = check_temperature(temperature)
