@@ -12,6 +12,9 @@ def check_temperature(temperature):
     return "NORMAL"
 
 
+
+#update
+
 def main():
     sensor_id = 101
     temperature = read_sensor(sensor_id)
