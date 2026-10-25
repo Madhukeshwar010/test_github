@@ -12,6 +12,15 @@ def check_temperature(temperature):
     return "NORMAL"
 
 
+def check_humidity(humidity):
+    """Check whether the relative humidity (%) is within the comfortable range."""
+    if humidity > 70:
+        return "HIGH"
+    elif humidity < 30:
+        return "LOW"
+    return "NORMAL"
+
+
 def main():
     sensor_id = 101
     temperature = read_sensor(sensor_id)
