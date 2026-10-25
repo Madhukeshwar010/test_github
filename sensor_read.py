@@ -14,6 +14,7 @@ def check_temperature(temperature):
 
 
 #update
+#update 2
 
 def main():
     sensor_id = 101
