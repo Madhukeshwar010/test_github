@@ -22,6 +22,6 @@ def main():
     print(f"Temperature: {temperature} °C")
     print(f"Status: {status}")
 
-
+    print("Madhu")
 if __name__ == "__main__":
     main()
