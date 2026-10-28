@@ -16,7 +16,7 @@ def check_temperature(temperature):
 
 
 def main():
-    sensor_id = 101
+    sensor_id = 1
     temperature = read_sensor(sensor_id)
 
     status = check_temperature(temperature)
