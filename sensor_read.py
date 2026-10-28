@@ -12,8 +12,11 @@ def check_temperature(temperature):
     return "NORMAL"
 
 
+
+
+
 def main():
-    sensor_id = 101
+    sensor_id = 50
     temperature = read_sensor(sensor_id)
 
     status = check_temperature(temperature)
@@ -21,6 +24,8 @@ def main():
     print(f"Sensor ID: {sensor_id}")
     print(f"Temperature: {temperature} °C")
     print(f"Status: {status}")
+
+
 
 
 if __name__ == "__main__":
