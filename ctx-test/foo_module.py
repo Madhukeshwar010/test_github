@@ -1,3 +1,3 @@
 def foo():
-    """CTX-TEST marker: version ALPHA-C1"""
-    return "alpha"
+    """CTX-TEST marker: version BETA-C2"""
+    return "beta"
