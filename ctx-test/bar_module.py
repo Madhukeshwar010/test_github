@@ -1,3 +1,3 @@
 def bar():
-    """CTX-TEST marker: version ALPHA-R1"""
-    return "alpha"
+    """CTX-TEST marker: version BETA-R2"""
+    return "beta"
